@@ -54,3 +54,26 @@ credit();
 credit();
 credit();
 // we are accessings credits private variable
+
+/*10
+closure.js:10 20
+closure.js:18 ()=>{
+        console.log(x+=5);
+        console.log(myVal+=1);
+    }
+closure.js:12 15
+closure.js:13 21
+closure.js:12 20
+closure.js:13 22
+closure.js:12 25
+closure.js:13 23
+closure.js:25 25
+closure.js:32 initial value: 0
+closure.js:33 1
+closure.js:33 2
+closure.js:33 3
+closure.js:44 intial credits value:3
+closure.js:47 Playing game,2 credits(s) remainging
+closure.js:47 Playing game,1 credits(s) remainging
+closure.js:48 not enough credits
+closure.js:48 not enough credits*/
